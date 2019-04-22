@@ -1,10 +1,10 @@
-public class MinecraftBot extends Chatbot
+public class MineBot extends Chatbot
 {
 
   // ###################### constructors 
 
-  // default constructor  - initialize the MinecraftBot properties
-  public MinecraftBot()
+  // default constructor  - initialize the MineBot properties
+  public MineBot()
   {
     myGreetings = new String[2];
     myGreetings[0] = "Uhh, do I know you?";
@@ -21,7 +21,7 @@ public class MinecraftBot extends Chatbot
   }
 
   // other constructor
-  public MinecraftBot(int space, double health, String quickChat, boolean tools) 
+  public MineBot(int space, double health, String quickChat, boolean tools) 
   {
     myInventorySpace = space;
     myQuickChat = quickChat;
@@ -104,4 +104,4 @@ public class MinecraftBot extends Chatbot
   private double myHealth;                  // a decimal number betw 0 and 10 where 10 is best health
   public boolean myTools;                  // true - he has tools; false - he has no tools
 
-}// end of the MinecraftBot class
+}// end of the MineBot class
